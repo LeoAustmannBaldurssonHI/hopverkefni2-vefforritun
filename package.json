@@ -1,0 +1,23 @@
+{
+  "name": "verkefni",
+  "version": "11.6.2",
+  "description": "",
+  "homepage": "https://github.com/LeoAustmannBaldurssonHI/hopverkefni2-vefforritun#readme",
+  "bugs": {
+    "url": "https://github.com/LeoAustmannBaldurssonHI/hopverkefni2-vefforritun/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoAustmannBaldurssonHI/hopverkefni2-vefforritun.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^9.39.0"
+  }
+}
