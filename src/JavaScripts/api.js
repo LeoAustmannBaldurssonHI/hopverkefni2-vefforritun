@@ -1,4 +1,4 @@
-import { startQuiz, setApiUrl, setStartButton } from "../Utility/spurningarScript.js";
+import { startQuiz, setApiUrl, setStartButton } from "./Utility/spurningarScript.js";
 
 
 const carBtn = document.getElementById('start_CarQuiz');
