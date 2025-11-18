@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="is">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heimasíða</title>
-    <link rel="stylesheet" href="./SCSS/index.scss">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="icon" type="image/x-icon" href="./Utility/favicon.ico">
 </head>
+
 <body>
     <main>
         <div class="navigation">
             <h1>Íslenskar nörd félagið</h1>
-            <nav>
+            <nav class="headerLinks">
                 <ul>
-                    <li><a href="#">API</a></li>
-                    <li><a href="HTML/about.html">Um</a></li>
+                    <li><a target="_blank" href="https://opentdb.com/api_config.php">API</a></li>
+                    <li><a target="_blank"
+                            href="https://github.com/LeoAustmannBaldurssonHI/hopverkefni2-vefforritun">Github</a></li>
+                    <li><a href="https://www.un.org/en/" target="_blank">United Nations</a></li>
                 </ul>
             </nav>
         </div>
@@ -21,6 +26,23 @@
             <source src="./Utility/Videos/icelandFlagBackground.mp4" type="video/mp4" />
         </video>
         <div class="content">
+            <div class="emptySpace">
+
+            </div>
+            <div class="contentText">
+                <br>
+                <br>
+                <h1>Velkomin á Íslenskri nörd leikurinn.</h1>
+                <h2><em>Heldur að þú getur verið með í liði?</em></h2>
+                <div class="contentText_info">
+                    <span>
+                        <p>Ef þú villt vita meira um hvernig þessi leikur virka, þá vinsamlegast smelltu á <a
+                                href="https://opentdb.com/api_config.php" target="_blank">hér</a> til að fá öll nægilega
+                            upplysíngum sem
+                            þú vantar</p>
+                    </span>
+                </div>
+            </div>
             <div id="quiz-container">
                 <div id="score" class="hidden"></div>
                 <div id="questionArea" class="hidden">
@@ -44,11 +66,6 @@
                     <button id="end_Quiz" class="hidden">Stop quiz</button>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <footer>
-                <h1>Footer</h1>
-            </footer>
         </div>
     </main>
     <script type="module" src="./JavaScripts/api.js">

@@ -1,4 +1,3 @@
-// JavaScripts/spurningarScript.js
 import { decodeHtml, attachTerminateQuiz } from "../helper.js";
 
 let apiUrl = '';
@@ -84,14 +83,12 @@ function showQuestion() {
     nextBtn.classList.add('hidden');
 }
 
-if (incorrectScore === 0) incorrectScore++;
-
 function showScore() {
     questionArea.classList.add('hidden');
     scoreDiv.classList.remove('hidden');
 
     const lengthQuestions = Math.min(currentIndex, questions.length);
-    scoreDiv.innerHTML = `You answered correctly ${score} out of ${lengthQuestions} questions. Which is ${((score / incorrectScore) * 100).toFixed(2)}% accuracy`;
+    scoreDiv.innerHTML = `You answered correctly ${score} out of ${lengthQuestions} questions. Which is ${((score / questions.length) * 100).toFixed(2)}% accuracy`;
 
     document.getElementById('start_CarQuiz').style.display = 'inline-block';
     document.getElementById('start_PoliticsQuiz').style.display = 'inline-block';
