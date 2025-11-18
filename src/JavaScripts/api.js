@@ -3,12 +3,22 @@ import { startQuiz, setApiUrl, setStartButton } from "./Utility/spurningarScript
 
 const carBtn = document.getElementById('start_CarQuiz');
 const politicsBtn = document.getElementById('start_PoliticsQuiz');
+const artsBtn = document.getElementById('start_ArtsQuiz');
+const musicBtn = document.getElementById('start_MusicQuiz');
+const historyBtn = document.getElementById('start_HistoryQuiz');
+const televisionBtn = document.getElementById('start_TelevisionQuiz');
+const geographyBtn = document.getElementById('start_GeographyQuiz');
 
 carBtn.addEventListener('click', () => {
     setApiUrl('https://opentdb.com/api.php?amount=20&category=28');
     setStartButton(carBtn);
 
     carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
     politicsBtn.style.display = 'none';
 
     startQuiz();
@@ -18,8 +28,88 @@ politicsBtn.addEventListener('click', () => {
     setApiUrl('https://opentdb.com/api.php?amount=20&category=24');
     setStartButton(politicsBtn);
 
-    politicsBtn.style.display = 'none';
     carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
 
     startQuiz();
 });
+
+artsBtn.addEventListener('click', () => {
+    setApiUrl(""); // missing
+    setStartButton(artsBtn);
+
+    carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
+
+    startQuiz();
+})
+
+historyBtn.addEventListener('click', () => {
+    setApiUrl(""); // missing
+    setStartButton(artsBtn);
+
+    carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
+
+    startQuiz();
+})
+
+televisionBtn.addEventListener('click', () => {
+    setApiUrl(""); // missing
+    setStartButton(artsBtn);
+
+    carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
+
+    startQuiz();
+})
+
+geographyBtn.addEventListener('click', () => {
+    setApiUrl(""); // missing
+    setStartButton(artsBtn);
+
+    carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
+
+    startQuiz();
+})
+
+musicBtn.addEventListener('click', () => {
+    setApiUrl(""); // missing
+    setStartButton(artsBtn);
+
+    carBtn.style.display = 'none';
+    musicBtn.style.display = 'none';
+    historyBtn.style.display = 'none';
+    televisionBtn.style.display = 'none';
+    geographyBtn.style.display = 'none';
+    artsBtn.style.display = 'none';
+    politicsBtn.style.display = 'none';
+
+    startQuiz();
+})
