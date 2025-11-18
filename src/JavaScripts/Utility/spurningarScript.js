@@ -95,5 +95,10 @@ function showScore() {
 
     document.getElementById('start_CarQuiz').style.display = 'inline-block';
     document.getElementById('start_PoliticsQuiz').style.display = 'inline-block';
+    document.getElementById('start_MusicQuiz').style.display = 'inline-block';
+    document.getElementById('start_TelevisionQuiz').style.display = 'inline-block';
+    document.getElementById('start_ArtsQuiz').style.display = 'inline-block';
+    document.getElementById('start_HistoryQuiz').style.display = 'inline-block';
+    document.getElementById('start_GeographyQuiz').style.display = 'inline-block';
     endQuizBtn.classList.add('hidden');
 }
