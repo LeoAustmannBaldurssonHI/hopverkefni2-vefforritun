@@ -40,7 +40,7 @@ politicsBtn.addEventListener('click', () => {
 });
 
 artsBtn.addEventListener('click', () => {
-    setApiUrl(""); // missing
+    setApiUrl("https://opentdb.com/api.php?amount=20&category=25"); // missing
     setStartButton(artsBtn);
 
     carBtn.style.display = 'none';
@@ -55,8 +55,8 @@ artsBtn.addEventListener('click', () => {
 })
 
 historyBtn.addEventListener('click', () => {
-    setApiUrl(""); // missing
-    setStartButton(artsBtn);
+    setApiUrl("https://opentdb.com/api.php?amount=20&category=23"); // missing
+    setStartButton(historyBtn);
 
     carBtn.style.display = 'none';
     musicBtn.style.display = 'none';
@@ -70,8 +70,8 @@ historyBtn.addEventListener('click', () => {
 })
 
 televisionBtn.addEventListener('click', () => {
-    setApiUrl(""); // missing
-    setStartButton(artsBtn);
+    setApiUrl("https://opentdb.com/api.php?amount=20&category=14"); // missing
+    setStartButton(televisionBtn);
 
     carBtn.style.display = 'none';
     musicBtn.style.display = 'none';
@@ -85,8 +85,8 @@ televisionBtn.addEventListener('click', () => {
 })
 
 geographyBtn.addEventListener('click', () => {
-    setApiUrl(""); // missing
-    setStartButton(artsBtn);
+    setApiUrl("https://opentdb.com/api.php?amount=20&category=22"); // missing
+    setStartButton(geographyBtn);
 
     carBtn.style.display = 'none';
     musicBtn.style.display = 'none';
@@ -100,8 +100,8 @@ geographyBtn.addEventListener('click', () => {
 })
 
 musicBtn.addEventListener('click', () => {
-    setApiUrl(""); // missing
-    setStartButton(artsBtn);
+    setApiUrl("https://opentdb.com/api.php?amount=20&category=12"); // missing
+    setStartButton(musicBtn);
 
     carBtn.style.display = 'none';
     musicBtn.style.display = 'none';
